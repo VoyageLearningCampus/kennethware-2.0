@@ -177,8 +177,8 @@ var klToolsVariables = {
         '   </ol>' +
         '</div>',
     klPagesLectureSection: '<div id="kl_lectures">' +
-        '   <h3 class="icon-video">Lectures</h3>' +
-        '   <p>[Insert video(s) here]</p>' +
+        '   <h3 class="icon-video">Video Tutorial</h3>' +
+        '   <p><video src="" width="960" height="720" controls="controls"></viceo></p>' +
         '</div>',
     klPagesActivitySection: '<div id="kl_activities">' +
         '   <h3 class="icon-standards">Activities</h3>' +
