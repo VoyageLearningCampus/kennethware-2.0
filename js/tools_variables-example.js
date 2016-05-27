@@ -93,7 +93,7 @@ var klToolsVariables = {
 
     // Colors included in this array will be included as swatches in the colorpicker
     klThemeColors: [
-        ['#003366', '#AC8D73', '#A4AEB5', '#0F2439'],
+        ['#77bbee', '#ff6600', '#ffcc00', '#0096db'],
         ['#000', '#444', '#666', '#999', '#ccc', '#eee', '#f3f3f3', '#fff'],
         ['#f4cccc', '#fce5cd', '#fff2cc', '#d9ead3', '#d0e0e3', '#cfe2f3', '#d9d2e9', '#ead1dc'],
         ['#ea9999', '#f9cb9c', '#ffe599', '#b6d7a8', '#a2c4c9', '#9fc5e8', '#b4a7d6', '#d5a6bd'],
