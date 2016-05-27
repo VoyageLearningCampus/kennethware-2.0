@@ -13,6 +13,11 @@ function klAfterToolDependenciesLoaded() {
 
 function klAdditionalAccordionSections() {
     'use strict';
+    var addAccordionSection = '<h3 class="kl_wiki">Section Title</h3>' +
+    '<div>' +
+    '    Section Content' +
+    '</div>';
+$('#kl_tools_accordion').append(addAccordionSection);
 }
 
 function klAfterToolLaunch() {
