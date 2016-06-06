@@ -47,6 +47,7 @@ var klToolsVariables = {
     // To add a theme, add the class here and add a thumbnail to the <toolspath>/images/template_thumbs folder 
     // Frontpage thumbnails approx 225px X 106px
     klFrontPageThemeArray: [
+        'vlc_fp_horizontal_nav',
         'kl_fp_horizontal_nav_2',
         'kl_fp_panel_nav_2',
         'kl_fp_squares_1x1',
