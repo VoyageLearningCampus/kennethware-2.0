@@ -6035,7 +6035,8 @@ klToolsArrays, vendor_legacy_normal_contrast, klAfterToolLaunch, klAdditionalAcc
 //    PAGE LOAD FUNCTIONS            //
 ///////////////////////////////////////
     $(document).ready(function () {
-        //if ($('#editor_tabs').length > 0) {
+        if ($('#editor_tabs').length > 0) {
+            alert('editor tabs higher than 0');
             // Add button to trigger tools
             if ($('#kl_tools_accordion').length === 0) {
                 $('#right-side').prepend('<a href="#" class="btn btn-primary kl_add_tools"><i class="fa fa-rocket" style="font-size: 18px;"></i> Launch Design Tools</a>');
@@ -6061,7 +6062,7 @@ klToolsArrays, vendor_legacy_normal_contrast, klAfterToolLaunch, klAdditionalAcc
 
                 });
             }
-        //}
+        }
         // Make some changes before page is saved
         $('.submit').click(function () {
             // Handle when a box was unchecked but the remove button wasn't clicked
