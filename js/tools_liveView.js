@@ -229,7 +229,7 @@ if ($('.kl_popover_trigger').length > 0) {
         $("." + popoverContainer + " h4").remove();
         $(this).attr("title", popoverBody);
         $("." + popoverContainer).remove();
-        $(".kl_popover_trigger").attr("data-tooltip", '{"tooltipClass":"popover right", "position":"right"}');
+        $(".kl_popover_trigger").attr("data-tooltip", '{"tooltipClass":"popover right", "position":"right", "html":"true"}');
     });
 }
 // READ MORE/LESS //
